@@ -207,13 +207,19 @@ Spring版本升级到4.2.9
 
 集成hazelcast的嵌入分布式缓存
 
+支持为 @FeginClient 方法单独配置超时[参数](Timeout.md)
+
+支持自定义 @RateLimit 实现
+
+微服务管控：增加服务数据库版本配置上报功能
+
 ### BUG修复
+
+mongo自动装配增加 `spring.data.mongodb.uri` 判断
 
 ### 改进
 
 重构模块，增加单独的依赖管理模块
-
-创建 Edgware 分支，升级 spring boot 版本到 1.5.16
 
 # Roadmap
 

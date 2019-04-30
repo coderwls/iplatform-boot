@@ -1,4 +1,4 @@
-# IPLATFORM-BOOT
+# REIPLATFORM-BOOT
 
 >  作者 张磊 2018-9-30
 
@@ -19,6 +19,7 @@ IPLATFORM-BOOT 是以 SpringCloud 为核心的微服务开发框架，提供了�
 * [监控服务部署手册](iplatform-common/AdminService.md)
 * [通知服务部署手册](iplatform-common/NotifyService.md)
 * [访问代理服务部署手册](iplatform-common/DiscoveryHAProxy.md)
+* [分布式事务中间件手册](iplatform-common/ServiceCombAlpha.md)
 
 ## 2. 开发手册
 
@@ -64,11 +65,13 @@ IPLATFORM-BOOT 是以 SpringCloud 为核心的微服务开发框架，提供了�
   * [多租户配置手册](developer/multitenant/README.md)
   * [通知服务集成手册](developer/notify/README.md)
   * [断路器集成手册](developer/hystrix/README.md)
+  * [分布式事务集成手册](developer/distributedtransactions/README.md)
 * 其他
 
   * [日志标准化](Logs.md)
   * [安全开发手册](Security.md)
   * [Docker](Dockerfile.md)
+  * [关于超时配置](Timeout.md)
   * 自动化测试
 
 ## 3. 中间件部署手册
@@ -86,9 +89,11 @@ IPLATFORM-BOOT 是以 SpringCloud 为核心的微服务开发框架，提供了�
 
 - [微服务管控平台部署手册](product/triden/README.md)
 - [微服务管控平台集成](product/triden/API.md)
+- [自动化引擎集成手册](product/automatic/README.md)
 
-## 5. 附件
+## 5. 其他
 
+* [风格指南](StyleGuide.md)
 * [框架参数说明](Properties.md)
 * [基准测试](Benchmark.md)
 * [IPv6 Support](IPv6.md)
@@ -97,4 +102,6 @@ IPLATFORM-BOOT 是以 SpringCloud 为核心的微服务开发框架，提供了�
 
 ## 6.贡献者
 
-文档：[coderwls](https://github.com/coderwls) [duzhen](https://github.com/duzhen020623) [Yu Shengqiang](https://github.com/ShefronYudy) [yubowinner](https://github.com/yubowinner)
+详情可浏览[提交指南](contributing/README.md)
+
+文档：[coderwls](https://github.com/coderwls) [duzhen](https://github.com/duzhen020623) [Yu Shengqiang](https://github.com/ShefronYudy) [yubowinner](https://github.com/yubowinner) [liuxinan](https://github.com/liuxinan)
